@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">LOGO</div>
+
+            <div class='right'>
+                <nav>
+                    <div class="arrow" id="open_arrow" onclick="openMenu(this)"></div>
+
+                    <div class="flex">
+                        <a href="">home</a>
+                        <a href="">tours</a>
+                        <a href="">climbing</a>
+                        <a href="">contacts</a>
+                    </div>
+                </nav>
+
+                <div class="mobile_arrow" id="mobile_open_arrow" onclick="openMobileMenu(this)"></div>
+
+                <img src="./media/sound.gif" alt="" class="sound_button paused">
+                <audio class="audio" src="./media/ambient.mp3" loop></audio>
+            </div>
+
+            <div class="mobile" id="mobile_menu">
+                <a href="">home</a>
+                <a href="">tours</a>
+                <a href="">climbing</a>
+                <a href="">contacts</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="galary">
+
+            <div class="frame">
+                <div class="frame__content">
+                    <h2>Beautiful nature</h2>
+                </div>
+            </div>
+
+            <div class="frame">
+                <div class="frame__content">
+                    <div class="frame__media left" style="background-image: url('./images/1.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <video class="frame__media right" src='./media/video_optimized.mp4' autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+
+            <div class="frame">
+                <div class="frame__content text_left">
+                    <h3>Pure planet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae eaque aliquid cum laboriosam quidem?</p>
+                </div>
+            </div>
+
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media left" style="background-image: url('./images/4.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media right" style="background-image: url('./images/3.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="frame">
+                <div class="frame__content text_right">
+                    <h3>Climb the mountains</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae eaque aliquid cum laboriosam quidem?</p>
+                </div>
+            </div>
+
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media right" style="background-image: url('./images/2.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <video class="frame__media" src='./media/video_optimized.mp4' autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="frame frame_bg">
+                <div class="frame__content text_center">
+                    <h4>Get a journey!</h4>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+
+            <div class="frame">
+                <div class="frame__content text_right">
+                    
+                    © Copyright 2024
+                    
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+</html>
