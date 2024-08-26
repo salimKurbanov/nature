@@ -34,7 +34,7 @@ const Scrolling = () => {
 
 }
     
-window.onscroll = () => Scrolling()   
+window.addEventListener('scroll', Scrolling);
 
 ////////////////
 
