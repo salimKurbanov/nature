@@ -33,8 +33,8 @@ const Scrolling = () => {
     })
 
 }
-    
-window.addEventListener('scroll', Scrolling);
+
+window.addEventListener('scroll', Scrolling)
 
 ////////////////
 
